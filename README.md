@@ -13,6 +13,7 @@ Installation project - manual
 
 - clone project `git clone https://github.com/GallanSJK/be_binar_mocktest.git`
 - add node modules `npm install`
+- if error after installing run `npm audit fix --force`
 - rename file .env.example to .env
 - configuration db in file .env
 - create db `sequelize db:create`
